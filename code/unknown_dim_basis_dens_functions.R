@@ -1,3 +1,11 @@
+##### R functions for basis expansion-based densities with shared unknown dimensionality K.
+##### Using the sampler (and most of the ideas) from the following two papers:
+##### Petrone, S. (1999). Random Bernstein Polynomials. Scandinavian Journal of Statistics 26 373–393.
+##### Petrone, S. (1999). Bayesian density estimation using Bernstein polynomials. Canadian Journal of Statistics 27 105–126.
+##### While these papers used Bernstein polynomial bases, we also allow for normalized cubic B-spline and
+##### constant (i.e. histogram) bases with equally-spaced knots.
+##### We also allow for hierarchical fitting of multiple densities.
+
 
 # TODO: add diagnostic functions using some rstan machinery (PSIS-LOO, IMSE, n_eff, R-hat/split R-hat)
 # Also add plotting functions, etc. into here
