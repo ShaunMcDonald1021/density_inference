@@ -1,3 +1,1 @@
-test = function(x){
-         print('aaa')
-}
+print('aaaa')
